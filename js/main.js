@@ -19,8 +19,7 @@ elForm.addEventListener("input", function(event){
           switch (num) {
             case 0:
 
-              elBody.style.backgroundColor = "#e03c0e";
-              elBody.style.backgroundColor = "#faebd7";
+              elBody.style.backgroundColor = "#fff";
               return elText.textContent = "Siz 0 kiritdingiz, bunday hafta ketma-ketligi mavjud emas";   break;
 
             case 1:
@@ -78,7 +77,7 @@ elForm.addEventListener("input", function(event){
       }
     }
     else{
-      elBody.style.backgroundColor = "#faebd7";
+      elBody.style.backgroundColor = "#fff";
       classContainer.style.backgroundColor = "#e03c0e";
       return elText.textContent = "Maydon bo'sh, unga ma'lumot kiriting"
     }
