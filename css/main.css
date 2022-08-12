@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 350px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 0 20px 1px cyan;
+  border-radius: 10px;
+  padding: 30px 20px;
+  background-color: #faebd7;
+  border: 2px solid black;
+}
+.label{
+  font-size: 25px;
+}
+.input{
+  margin: 25px 0;
+  font-size: 25px;
+}
+.resultP{
+  font-size: 22px;
+}
